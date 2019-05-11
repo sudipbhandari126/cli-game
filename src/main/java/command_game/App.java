@@ -15,7 +15,7 @@ public class App {
         while (true){
         	String input = in.nextLine();
         	if ("Exit".equals(input)) return;
-        	System.out.print("You entered "+input+" Please enter Exit to exit from this");
+        	System.out.print("You entered "+input+" Please enter Exit to exit from this\n");
         }
     }
 }
