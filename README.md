@@ -20,8 +20,8 @@ Select test framework:
   3: spock
 Enter selection (default: junit) [1..3] 1
 
-Project name (default: game): command_game
-Source package (default: command_game): 
+Project name (default: game): hangman
+Source package (default: hangman): 
 ```
 
 We can choose either (groovy or Kotlin as DSL), select a testing
@@ -46,7 +46,7 @@ Adding the main class:
 
 ```
 // Define the main class for the application
-mainClassName = 'command_game.App'
+mainClassName = 'hangman.App'
 ```
 
 In order to take input from the console (command line)

@@ -29,7 +29,7 @@ dependencies {
 }
 
 // Define the main class for the application
-mainClassName = 'command_game.App'
+mainClassName = 'hangman.App'
 
 run{
     standardInput = System.in
