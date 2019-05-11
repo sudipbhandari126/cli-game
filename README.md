@@ -46,7 +46,7 @@ Adding the main class:
 
 ```
 // Define the main class for the application
-mainClassName = 'hangman.App'
+mainClassName = 'hangman.HangmanApplication'
 ```
 
 In order to take input from the console (command line)

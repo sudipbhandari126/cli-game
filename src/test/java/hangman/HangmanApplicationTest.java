@@ -6,9 +6,9 @@ package hangman;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-public class AppTest {
+public class HangmanApplicationTest {
     @Test public void testAppHasAGreeting() {
-        App classUnderTest = new App();
+        HangmanApplication classUnderTest = new HangmanApplication();
         assertNotNull("app should have a greeting", classUnderTest.getGreeting());
     }
 }

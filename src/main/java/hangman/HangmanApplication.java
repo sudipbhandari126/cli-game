@@ -8,7 +8,7 @@ import hangman.model.Hangman;
 
 import java.util.Scanner;
 
-public class App {
+public class HangmanApplication {
     public String getGreeting() {
         return "Hello world.";
     }

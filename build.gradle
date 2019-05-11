@@ -29,7 +29,15 @@ dependencies {
 }
 
 // Define the main class for the application
-mainClassName = 'hangman.App'
+mainClassName = 'hangman.HangmanApplication'
+
+jar {
+    manifest {
+        attributes(
+                'Main-Class': 'hangman.HangmanApplication'
+        )
+    }
+}
 
 run{
     standardInput = System.in
